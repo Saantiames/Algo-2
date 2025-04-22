@@ -24,7 +24,7 @@ int bsearch_rec(int a[], int izq, int der){
     mid = (izq+der)/2;
 
     if ( izq == der ){
-        ret = mid;
+        ret = der;
 
     }else if(a[mid] < a[mid+1]){
         ret = bsearch_rec(a,mid+1, der);
