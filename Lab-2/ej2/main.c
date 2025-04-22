@@ -8,7 +8,7 @@ int main(void) {
     int result;
 
     result = cima(a, length);
-
+    printf("%s\n", tiene_cima(a,length) ? "true" : "false");
     printf("Resultado: %i\n", result);
 
     return EXIT_SUCCESS;

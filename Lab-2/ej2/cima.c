@@ -14,9 +14,21 @@
  */
 bool tiene_cima(int a[], int length) {
 
-    // COMPLETAR!!
+    bool foundcima = false;
+    int c = 0;
+    while( c<length-1 && a[c]<a[c+1]){
+        c++;
+    }
+    if(c<length-1){
+        while(c<length-1 && a[c]> a[c+1]){
+            c++;
+        }
+    }
 
-    return false;
+    if(c==length - 1){
+        foundcima = true;
+    }
+    return foundcima;
 }
 
 /**
@@ -32,8 +44,14 @@ bool tiene_cima(int a[], int length) {
  * @param length Largo del arreglo.
  */
 int cima(int a[], int length) {
+    int c = 0;
 
-    // COMPLETAR!!
+    if(tiene_cima(a,length)){
+        while( c<length-1 && a[c]<a[c+1]){
+            c++;
+        }
+        c++;
+    }
 
-    return 0;
+    return c;
 }
