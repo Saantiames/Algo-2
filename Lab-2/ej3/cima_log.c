@@ -15,9 +15,29 @@
  * @param a Arreglo.
  * @param length Largo del arreglo.
  */
+
+
+int bsearch_rec(int a[], int izq, int der){
+
+    int mid;
+    int ret;
+
+    mid = (izq+der)/2;
+
+    if ( izq == der ){
+        ret = a[mid];
+
+    }else if(a[mid] < a[mid+1]){
+        ret = bsearch_rec(a,mid+1, der);
+    }else {
+        ret = bsearch_rec(a,izq, mid);
+    }
+
+    return ret;
+}
 int cima_log(int a[], int length) {
 
-    // COMPLETAR!!
+    int cima = bsearch_rec(a, 0, length);
 
-    return 0;
+    return cima;
 }
