@@ -10,6 +10,7 @@ Este repositorio contiene ejercicios y prácticas realizadas durante la cursada 
 - Organización modular del código (`.h`, `.c`)
 - Análisis de complejidad y eficiencia
 - Pruebas, debugging y validación con GCC
+- Manejo de memoria estática y dinámica
 
 ## 📚 Logros Personales
 - Introducir el uso de **git** para manejo de versiones del codigo
