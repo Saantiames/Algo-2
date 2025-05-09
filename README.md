@@ -11,3 +11,5 @@ Este repositorio contiene ejercicios y prácticas realizadas durante la cursada 
 - Análisis de complejidad y eficiencia
 - Pruebas, debugging y validación con GCC
 
+## Logros Personales
+- Introducir el uso de **git** para manejo de versiones del codigo
