@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "cima_log.h": "c",
+        "weather.h": "c",
+        "weather_utils.h": "c",
+        "weather_table.h": "c"
+    }
+}
