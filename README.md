@@ -2,7 +2,7 @@
 
 Este repositorio contiene ejercicios y prácticas realizadas durante la cursada de la materia **Algoritmos y Estructuras de Datos II** (FAMAF, 2025).
 
-> ## 📌 Contenidos Destacados
+## 📌 Contenidos Destacados
 
 - Implementación de algoritmos en **C**
 - Uso y manipulación de tipos abstractos de datos
