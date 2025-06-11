@@ -11,7 +11,7 @@
 
 int main(void) {
     char user_input[MAX_LENGTH];
-    char ignore_chars[] = {' ', '?', '!', ',', '-', '.'};
+    char ignore_chars[] = {'?', '!', ',', '-', '.',' '};
     char *filtered=NULL;
 
     printf("Ingrese un texto (no más de %d símbolos) para verificar palíndromo: ", MAX_LENGTH);

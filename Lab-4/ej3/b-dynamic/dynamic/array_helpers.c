@@ -34,15 +34,18 @@ int * array_from_file(const char *filepath, size_t *length) {
         exit(EXIT_FAILURE);
     }
     int *array=NULL;
-    //
-    // COMPLETAR: - Reservar memoria para array
-    //            - Cambiar el valor de *length para que contenga el tamaño del
-    //              arreglo.
-    //
+    array = (int*)malloc(size * sizeof(int));
+
     if (size > 0 && array == NULL) {
         fprintf(stderr, "Not enough memory\n");
         exit(EXIT_FAILURE);
     }
+
+    *length = size; 
+    for(int i = 0; i < size; ++i){    
+        res = fscanf(file, " %d ", &array[i]);
+    }
+
     while (i < size) {
         res = fscanf(file," %d ", &(array[i]));
         if (res != 1) {
