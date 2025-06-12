@@ -3,6 +3,10 @@
         "cima_log.h": "c",
         "weather.h": "c",
         "weather_utils.h": "c",
-        "weather_table.h": "c"
+        "weather_table.h": "c",
+        "list.h": "c",
+        "stdbool.h": "c",
+        "stdlib.h": "c",
+        "assert.h": "c"
     }
 }
